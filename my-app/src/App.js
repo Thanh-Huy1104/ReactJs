@@ -7,7 +7,7 @@ import React from 'react';
 function App() {
   return (
     <div>
-      <header className='heading'>
+      <header className='heading site'>
       <a href='./'><img src={reload} alt='reloading page' className='logo'></img></a>
       </header>
       <TopSite></TopSite>
