@@ -13,22 +13,24 @@
 }
 
 .logo {
-    background-color: #14142a;
     padding: 0;
     margin: 0;
     transform: scale(1);
 }
 
-.logo:hover {
-    fill: blue;
+
+.wave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-div {
-    -ms-overflow-style: none; /* for Internet Explorer, Edge */
-    scrollbar-width: none; /* for Firefox */
-    overflow-y: scroll; 
-}
-  
-div::-webkit-scrollbar {
-    display: none; /* for Chrome, Safari, and Opera */
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 131px;
 }
