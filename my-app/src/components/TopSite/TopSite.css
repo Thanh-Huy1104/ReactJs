@@ -1,24 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 .Top {
     background-color: #14142a;
-    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-    display: grid;
     min-height: 100vh;
 }
 
 .Top p {
-    text-align: center;
-    text-justify: auto;
+  color: #6b869a;
+  text-align: center;
+  text-justify: auto;
+  display: grid;
+
+}
+
+.Top h2 {
+  color: #8da3b3;
+  display: grid;
+
+}
+
+.logo {
+  text-align: left;
 }
 
 .wrapper {
     display: grid;
     place-items: center;
     background-color: #14142a;
-    color: #ffffff;
+    color: #bcc9e3;
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
@@ -27,7 +38,7 @@
 }
   
   .typing-demo {
-    width: 21.2ch;
+    width: 21.8ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
     overflow: hidden;
     white-space: nowrap;
