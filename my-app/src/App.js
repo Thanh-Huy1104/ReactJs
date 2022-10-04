@@ -2,6 +2,7 @@ import './App.css';
 import TopSite from './components/TopSite/TopSite';
 import FootSite from './components/FootSite/FootSite';
 import reload from './components/svgs/Logo.svg'
+import hills from './components/svgs/hills.svg'
 import React from 'react';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <a href='./'><img src={reload} alt='reloading page' className='logo'></img></a>
       </header>
       <TopSite></TopSite>
+      <img src={hills} className="wave" alt="hills"></img>
       <FootSite></FootSite>
 
     </div>
