@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 import TopSite from './components/TopSite/TopSite';
+import MainSite from './components/MainSite/MainSite';
 import FootSite from './components/FootSite/FootSite';
 import reload from './components/svgs/Logo.svg'
 
@@ -39,7 +40,7 @@ function App() {
         <TopSite></TopSite>
       </div>
       <div>
-        
+        <MainSite></MainSite>
       </div>
     <footer>
       <FootSite></FootSite>
