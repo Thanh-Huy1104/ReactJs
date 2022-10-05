@@ -8,16 +8,12 @@
     margin: 0;
 }
 
-.heading h1{
-    text-align: left;
-}
-
 .logo {
     padding: 0;
     margin: 0;
-    transform: scale(1);
+    transform: scale(0.8);
+    
 }
-
 
 .wave {
     position: absolute;
@@ -25,7 +21,7 @@
     left: 0;
     width: 100%;
     overflow: hidden;
-    line-height: 0;
+    line-height: -19;
 }
 
 .wave svg {
@@ -33,4 +29,19 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 131px;
+}
+
+.left-list {
+    width: 30px;
+    position: fixed;
+    bottom: -70px;
+    left: -27px;
+    right: auto;
+    z-index: 10;
+    transform: scale(0.3);
+    list-style-type: none;
+}
+
+.left-list li {
+    margin-top: 20px;
 }
