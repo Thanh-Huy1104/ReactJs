@@ -18,9 +18,9 @@ function App() {
         <a href='./'><img src={reload} alt='reload page' className='logo'></img></a>
       <nav className='nav'>
         <ul className='nav__list'>
-          <li className='nav__item'><a href='./' className='nav__link'>About</a></li>
-          <li className='nav__item'><a href='./about' className='nav__link'>Experience</a></li>
-          <li className='nav__item'><a href='./contact' className='nav__link'>Contact</a></li>
+          <li className='nav__item'><a href='#about' className='nav__link'>About</a></li>
+          <li className='nav__item'><a href='#experience' className='nav__link'>Experience</a></li>
+          <li className='nav__item'><a href='#contact' className='nav__link'>Contact</a></li>
         </ul>
       </nav>
       </header>
