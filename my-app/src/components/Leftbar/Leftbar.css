@@ -1,0 +1,19 @@
+.left-list {
+    width: 30px;
+    position: fixed;
+    bottom: -70px;
+    left: -27px;
+    right: auto;
+    z-index: 10;
+    transform: scale(0.30);
+    list-style-type: none;
+}
+
+.left-list li {
+    margin-top: 20px;
+}
+
+.left-list li:hover{
+    text-decoration: none;
+    transform: scale(0.9);
+}
