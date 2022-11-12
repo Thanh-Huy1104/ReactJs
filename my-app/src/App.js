@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import { NavBar, Footer, Hero, Leftbar } from './components/index';
+import { NavBar, Footer, Hero, About, Leftbar } from './components/index';
 
 
 function App() {
@@ -21,6 +21,12 @@ function App() {
     <div className=''>
       <div className=''>
         <Hero />
+      </div>
+    </div>
+
+    <div className=''>
+      <div className=''>
+        <About />
       </div>
     </div>
 
