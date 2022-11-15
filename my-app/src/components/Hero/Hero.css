@@ -79,23 +79,22 @@
 }
 
 
-.custom-shape-divider-bottom-1668192870 {
+.waves {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1668192870 svg {
+.waves svg {
     position: relative;
     display: block;
-    width: calc(140% + 1.3px);
-    height: 152px;
+    width: calc(100% + 1.3px);
+    height: 96px;
 }
 
-.custom-shape-divider-bottom-1668192870 .shape-fill {
-    fill: #2e5b30;
+.waves .shape-fill {
+    fill: #DF981D38;
 }

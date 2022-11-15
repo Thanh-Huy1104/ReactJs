@@ -1,7 +1,32 @@
-.left-about {
+.about-wrapper {
     display: flex;
     font-family: 'Poppins', sans-serif;
     background-color: #252528;
     padding-top: 4rem;
     padding-bottom: 3.45rem;
 }
+
+.about-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: start;
+    flex-direction: column;
+    padding: 0 3rem;
+}
+
+.right-about {
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #c8b2aa;
+    margin-top: -10px;
+}
+
