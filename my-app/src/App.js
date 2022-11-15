@@ -3,7 +3,9 @@ import React from 'react';
 import { NavBar, Footer, Hero, About, Leftbar } from './components/index';
 
 
+
 function App() {
+
   return (
     <div className=''>
       <div className=''>
