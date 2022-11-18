@@ -1,55 +1,40 @@
 import React from 'react'
 import './About.css'
-import ProgressBar from 'react-bootstrap/ProgressBar';
-
+import ProgressBar from '../ProgressBar/ProgressBar'
 
 const About = () => {
-  const SQL = 'SQL and MySQL 80';
-  const JavaScript = 'JavaScript 75';
-  const ReactJS = 'React 70';
-  const Python = 'Python 90';
-  const C = 'C 85';
-  const Adobe_Photoshop = 'Adobe Photoshop 80';
-  const Adobe_Illustrator = 'Adobe Illustrator 80';
   return (
-    <div className='about-wrapper'>
+      <div className='about-wrapper'>
+        <div class="waves">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
       <div className='about-content'>
         <div className='about-text'>
-            <h2>About me</h2>
+            <h2>01. About me</h2>
             <p>
-                I am familiar with multiple types of coding languages such as SQL, Python, C and JavaScript. I am also familiar with multiple
-                types of frameworks such as React, Node.js, and Express. I am
-                currently learning more about Neural Networks and Machine
-                Learning. I am also familiar with multiple types of databases
-                such as MySQL. I am also familiar with multiple types of software such as Adobe Photoshop and Adobe Illustrator.
+                Hello! My name is Thanh-Huy and I'm a university student currently trying to learn all sorts of technologies. I'm currently studying Software Engineering at the University of Technolgies Superieur in Montreal. I'm passionate about learning new technologies and applying them to solve real-world problems.<br/><br/>Here are a few technologies I've been working with recently:
             </p>
         <div/>
-          <div className='about'>
-            <div className='SQL'>
-            <ProgressBar now={SQL} label={`${SQL}%`} />
+        </div>
+      <div className='about-progress'>
+        <h2>Skills</h2>
+            <div>
+            <h5>SQL</h5>
+            <ProgressBar className='SQL'done="  90" />
             </div>
-            <div className='JavaScript'>
-            <ProgressBar now={JavaScript} label={`${JavaScript}%`} />
+            <div>
+            <h5>Python</h5>
+            <ProgressBar className='Python' done="90" />
             </div>
-            <div className='Python'>
-            <ProgressBar now={Python} label={`${Python}%`} />
+            <div>
+            <h5>Adobe Phtotshop & Illustrator</h5>
+            <ProgressBar className='Adobe Photoshop' done="75" />
             </div>
-            <div className='React'>
-            <ProgressBar now={ReactJS} label={`${ReactJS}%`} />
-            </div>
-            <div className='C'>
-            <ProgressBar now={C} label={`${C}%`} />
-            </div>
-            <div className='Adobe Photoshop'>
-            <ProgressBar now={Adobe_Photoshop} label={`${Adobe_Photoshop}%`} />
-            </div>
-            <div className='Adobe Illustrator'>
-            <ProgressBar now={Adobe_Illustrator} label={`${Adobe_Illustrator}%`} />
-            </div>
-          </div>
         </div>
     </div>
-  </div>
+    </div>
   )
 }
 

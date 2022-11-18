@@ -1,32 +1,79 @@
+
+
 .about-wrapper {
-    display: flex;
+    display: block;
     font-family: 'Poppins', sans-serif;
-    background-color: #252528;
-    padding-top: 4rem;
+    background-color: #288a4c;
     padding-bottom: 3.45rem;
+    height: 100vh;
+    
 }
 
 .about-content {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-self: start;
-    flex-direction: column;
-    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap:50px;
+    padding-top: 100px;
+    padding-left: 10rem;
 }
 
-.right-about {
+.about-progress {
     flex:1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-
+.about-progress h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0e7e1;
+    margin: 0;
+    padding: 0;
+}
+.about-progress h2{
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #d5bfb0;
+}
 .about-text {
     font-size: 16px;
     font-weight: 400;
-    color: #c8b2aa;
-    margin-top: -10px;
+    margin-top: 20px;
+}
+.about-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3edeb;
+    margin-top: 30px;
+}
+
+.about-text h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #e1c9c0;
+    margin: 0;
+    padding: 0;
+}
+
+.waves {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.waves svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.waves .shape-fill {
+    fill: #252528;
 }
 

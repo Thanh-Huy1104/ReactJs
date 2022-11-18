@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: #252528;
     padding-top: 4rem;
-    padding-bottom: 3.45rem;
+    padding-bottom: 10rem;
 }
 .hero-content {
     flex: 1;
@@ -14,7 +14,7 @@
     justify-content: center;
     align-self: start;
     flex-direction: column;
-    padding: 0 3rem;
+    padding: 0 10rem ;
 }
 .hero-text h1 {
     font-size: 16px;
@@ -79,7 +79,7 @@
 }
 
 
-.waves {
+.waves1 {
     position: absolute;
     top: 0;
     left: 0;
@@ -88,13 +88,13 @@
     line-height: 0;
 }
 
-.waves svg {
+.waves1 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 96px;
+    height: 190px;
 }
 
-.waves .shape-fill {
-    fill: #DF981D38;
+.waves1 .shape-fill {
+    fill: #f3f3f338;
 }
