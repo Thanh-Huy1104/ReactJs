@@ -14,12 +14,20 @@ const About = () => {
         <div className='about-text'>
             <h2>01. About me</h2>
             <p>
-                Hello! My name is Thanh-Huy and I'm a university student currently trying to learn all sorts of technologies. I'm currently studying Software Engineering at the University of Technolgies Superieur in Montreal. I'm passionate about learning new technologies and applying them to solve real-world problems.<br/><br/>Here are a few technologies I've been working with recently:
+                Hello! My name is Thanh-Huy and I'm a university student currently trying to learn all sorts of technologies. I'm currently studying Software Engineering at the University of Technolgies Superieur in Montreal. I'm passionate about learning new technologies and applying them to solve real-world problems.<br/><br/>Here are a few of them that I've been working with recently:
             </p>
+            <ul className='skill-list'>
+                <li>JavaScript</li>
+                <li>React & Vite</li>
+                <li>Node.js</li>
+                <li>C</li>
+                <li>HTML & CSS, TailwindCSS</li>
+                <li>MySQL</li>
+            </ul>
         <div/>
         </div>
       <div className='about-progress'>
-        <h2>Skills</h2>
+        <h2>Main Skills</h2>
             <div>
             <h5>SQL</h5>
             <ProgressBar className='SQL'done="  90" />
@@ -30,7 +38,7 @@ const About = () => {
             </div>
             <div>
             <h5>Adobe Phtotshop & Illustrator</h5>
-            <ProgressBar className='Adobe Photoshop' done="75" />
+            <ProgressBar className='Adobe Photoshop' done="80" />
             </div>
         </div>
     </div>

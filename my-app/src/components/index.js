@@ -4,6 +4,7 @@ import Hero from "./Hero/Hero";
 import Leftbar from "./Leftbar/Leftbar";
 import About from "./About/About";
 import ProgressBar from "./ProgressBar/ProgressBar";
+import Projects from "./Projects/Projects";
 
 export {
     NavBar,
@@ -11,5 +12,6 @@ export {
     Hero,
     Leftbar,
     About,
-    ProgressBar
+    ProgressBar,
+    Projects,
 }
