@@ -22,7 +22,7 @@ const About = () => {
                 <li>Node.js</li>
                 <li>C</li>
                 <li>HTML & CSS, TailwindCSS</li>
-                <li>MySQL</li>
+                <li>MySQL & Firebase</li>
             </ul>
         <div/>
         </div>

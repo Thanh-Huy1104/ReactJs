@@ -15,7 +15,7 @@
 }
 
 .progress-done {
-	background-image: linear-gradient(to right, #38b365, #288a4c);
+	background-image: linear-gradient(to right, #ced4d0, #1b1a19);
 	box-shadow: 0 3px 3px -5px #ffffff, 0 2px 5px #ffffff;
 	border-radius: 20px;
 	color: rgb(241, 233, 203);
