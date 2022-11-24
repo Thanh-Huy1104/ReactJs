@@ -89,3 +89,14 @@
     font-weight: 400;
     color: #f3edeb;
 }
+
+
+@media screen and (max-width: 1050px) {
+    .about-wrapper {
+        flex-direction: column;
+    }
+    .about-content {
+        margin: 0 0 3rem;
+    }
+}
+
